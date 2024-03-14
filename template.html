@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Motorcycles, History, Races, Czech Republic, BMW, NSU, Norton">
+    <meta name="description" content="This is a homepage of my project website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/originalstyle.css">
+
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+        <!--here will be the logo of the webpage-->
+        <aside>
+            <img class="header-logo" src="images/helmet.logo.png" alt="helmet logo">
+        </aside>
+        <h1>Historic Motorcycle Races<br>in the Czech Republic</h1>
+    </header>
+
+<nav> <!--navigation of the webpage-->
+    <ul>
+        <li><a href="template.html">Home</a></li> <!--layer one-->
+        <li class="dropdown"> <!--selector for css-->
+        <button class="dropbtn">Auto Club Czechia</button> <!--selector for dropdown button-->
+            <div class="dropdown-content"> <!--selector for dropdown content-->
+                <a href="licenses.html">Licenses</a> 
+                <a href="insurance.html">Insurance</a>
+            </div>
+        </li>
+        <li><a href="categories.html">Categories</a></li>
+        <li class="dropdown">
+        <button class="dropbtn">Events</button>
+            <div class="dropdown-content">
+                <a href="sosnova.html">Sosnová</a>
+                <a href="jicin.html">Jičín</a>
+                <a href="nepomuk.html">Nepomuk</a>
+                <a href="branna.html">Branná</a>
+            </div>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <p><i>This is a college project completed as part of an assignment.</i></p>
+    <section id="history"> <!--pic on the left, paragraph on the right-->
+        <section id="secleft">
+            <img src="images/nsu-ilustrace.jpg" alt="nsu-ilustrative-logo" width="" height="">
+        </section>
+        <section id="secright">
+            <h2>History of Motorcycles in the Czech Republic</h2>
+            <p>Originally, motorcycle races began being popular with the very first motorcycles being made. In the
+               Czech Republic, it was 1960s when motosport started to bloom. The most popular racing track for the
+               races of historic motorcycles is in a town called <a href="https://www.horice.org/">Hořice</a>
+            </p>
+        </section>    
+    </section>
+
+        <h2>Most Popular Motorcycle Brands at the Races</h2>
+
+    <section class="row"> <!--making columns for contennt about motorcycles-->
+        <section class="column">
+            <h3>NSU</h3>
+            <p>NSU stands for Neckarsulm Strickmaschinen Union. It used to be one of
+               the most famous motorcycle producers in Germany during the World War 2
+               and after the war it went to decline in production and popularity.<br>
+               <a href="https://www.motorcycleclassics.com/classic-german-motorcycles/the-rise-and-fall-of-nsu-motorcycles/">Read more on NSU...</a> 
+            </p>
+            <img class="columnspic" src="images/nsu-motorcycle.jpg" alt="nsu-motorcycle">
+        </section>
+        <section class="column">
+            <h3>Norton</h3>
+            <p>Norton is a British brand of motorcycles starting its production
+               in 1898. It has been active since then. Norton only had one break
+               in producing motorcycles in 2020 and got back to it with a new machine.<br>
+               <a href="https://nortonmotorcycles.com/stories/category/history/">Read More on Norton...</a>
+            </p>
+            <img class="columnspic" src="images/norton-motorcycle.jpg" alt="norton-motorcycle">
+        </section>
+        <section class="column">
+            <h3>BMW</h3>
+            <p>The very first BMW motorcycle was presented in 1923. Since then,
+               the company was determined to success and giving up was never an
+               option for the company. Nowadays it is one of the most popular brands.<br>
+            <a href="https://www.bmw-motorrad.ie/en/experience/100years.html">Read More on BMW...</a>       
+            </p>
+            <img class="columnspic" src="images/bmw-motorcycle.jpg" alt="bmw-motorcycle">
+        </section>
+    </section>
+</main>
+
+    <footer>
+        <p>Anna Tomisova</p>
+    </footer>
+</body>
+</html>
